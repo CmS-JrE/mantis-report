@@ -55,7 +55,7 @@ if(count($validationErrors) > 0) {
 	
 	try {
 		$soapClient = new SoapClient($ini_array["mantisConnectUrl"] . "?wsdl");
-		$result = $soapClient->__call("mc_issue_add1", $request); 
+		$result = $soapClient->__call("mc_issue_add", $request); 
 		
 		echo "<div class=\"alert alert-success\">";
 		echo "<p>Created issue #" . $result . ".</p>";
