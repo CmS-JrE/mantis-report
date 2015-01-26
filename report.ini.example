@@ -1,0 +1,15 @@
+; copy this file to report.ini and put in your own values
+
+; project name must match as configured inside your Mantis
+project = "My Project"
+
+; user credentials with sufficient permissions inside your Mantis
+userName = "user"
+password = "password"
+
+; URL of MantisConnect on your Mantis, does not include the ?wsdl
+mantisConnectUrl = "http://localhost/mantis/api/soap/mantisconnect.php"
+
+; href to link to administrator page or e-mail address if something goes wrong
+; administratorHref = "http://localhost/about/contact"
+administratorHref = "mailto:admin@example.com"

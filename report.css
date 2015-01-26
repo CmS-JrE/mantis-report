@@ -1,0 +1,8 @@
+body {
+	padding: 0 20px;
+	background-color: #e5e5e5;
+}
+
+p.form-control {
+	height: inherit;
+}
