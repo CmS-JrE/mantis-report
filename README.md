@@ -13,7 +13,7 @@ Many sources point to Anonymantis for this, but it is outdated, not maintained, 
 1. Copy the contents of this repository into a folder on your web server
 1. Create a user in your Mantis with the appropriate permissions
 1. Create a `report.ini` (use `report.ini.default` as a template)
-1. Change the "*Category*" `<select>` to represent your relevant categories
+1. Change the "*Category*" `<select>` in `report.html` to represent your relevant categories
 1. Browse to `http://... /mantis-report/report.html` and enjoy
 
 ## Disclaimer
