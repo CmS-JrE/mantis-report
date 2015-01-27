@@ -48,7 +48,7 @@ if(count($validationErrors) > 0) {
 	);
 	
 	$request = array(
-		"username" => $ini_array["username"],
+		"username" => $ini_array["userName"],
 		"password" => $ini_array["password"],
 		"issue" => $issue
 	);
